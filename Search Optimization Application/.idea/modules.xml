@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Search-Optimization-Application.iml" filepath="$PROJECT_DIR$/.idea/modules/Search-Optimization-Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-service/Search-Optimization-Application.auth-service.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-service/Search-Optimization-Application.auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-service/Search-Optimization-Application.auth-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-service/Search-Optimization-Application.auth-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-service/Search-Optimization-Application.auth-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-service/Search-Optimization-Application.auth-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Search-Optimization-Application.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Search-Optimization-Application.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repo-service/Search-Optimization-Application.repo-service.iml" filepath="$PROJECT_DIR$/.idea/modules/repo-service/Search-Optimization-Application.repo-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repo-service/Search-Optimization-Application.repo-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/repo-service/Search-Optimization-Application.repo-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repo-service/Search-Optimization-Application.repo-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/repo-service/Search-Optimization-Application.repo-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/resource-service/Search-Optimization-Application.resource-service.iml" filepath="$PROJECT_DIR$/.idea/modules/resource-service/Search-Optimization-Application.resource-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/resource-service/Search-Optimization-Application.resource-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/resource-service/Search-Optimization-Application.resource-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/resource-service/Search-Optimization-Application.resource-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/resource-service/Search-Optimization-Application.resource-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Search-Optimization-Application.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Search-Optimization-Application.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.optimisesearch.kafka_consumer_for_search_optimization.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.optimisesearch.kafka_consumer_for_search_optimization.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka_consumer_for_search_optimization.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka_consumer_for_search_optimization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka_consumer_for_search_optimization.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka_consumer_for_search_optimization.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka_consumer_for_search_optimization.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka_consumer_for_search_optimization.test.iml" />
+    </modules>
+  </component>
+</project>

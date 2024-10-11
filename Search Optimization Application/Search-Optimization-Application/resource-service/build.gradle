@@ -1,0 +1,28 @@
+dependencies {
+    implementation project(':repo-service')
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
+    implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
+}
+
+bootJar {
+    enabled = false
+}
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+jar {
+    enabled = true
+    archiveFileName = 'resource-service.jar'
+}
+
+tasks.named('bootBuildImage') {
+    dependsOn tasks.named('jar')
+}
+
+tasks.named('bootBuildImage') {
+    enabled = false
+}

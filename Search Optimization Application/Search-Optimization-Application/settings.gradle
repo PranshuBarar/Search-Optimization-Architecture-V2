@@ -1,0 +1,4 @@
+rootProject.name = 'Search-Optimization-Application'
+include 'auth-service'
+include 'resource-service'
+include 'repo-service'

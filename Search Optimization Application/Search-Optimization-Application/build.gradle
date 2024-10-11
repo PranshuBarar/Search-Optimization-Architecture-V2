@@ -1,0 +1,60 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.3.3'
+	id 'io.spring.dependency-management' version '1.1.6'
+}
+
+group = 'com.optimisesearch'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
+
+allprojects {
+
+	repositories {
+		mavenCentral()
+	}
+
+	dependencies {
+
+	}
+
+}
+
+subprojects {
+	apply plugin: 'java'
+	apply plugin: 'org.springframework.boot'
+	apply plugin: 'io.spring.dependency-management'
+
+	dependencies {
+		implementation 'org.springframework.boot:spring-boot-starter-web'
+		compileOnly 'org.projectlombok:lombok'
+		annotationProcessor 'org.projectlombok:lombok'
+		implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+		implementation group: 'jakarta.validation', name: 'jakarta.validation-api', version: '2.0.2'
+		developmentOnly 'org.springframework.boot:spring-boot-devtools'
+		implementation 'co.elastic.clients:elasticsearch-java:8.15.1'
+
+	}
+}
+
+dependencies {
+	implementation project(':auth-service')
+	implementation project(':resource-service')
+	implementation project(':repo-service')
+	runtimeOnly 'com.mysql:mysql-connector-j'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
+}
+
+bootBuildImage {
+	imageName = 'search-optimization-application'
+}
+
