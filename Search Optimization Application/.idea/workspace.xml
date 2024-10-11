@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4f8789-965c-4c72-87ed-c914c48581a5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/auth-service/Search-Optimization-Application.auth-service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/auth-service/Search-Optimization-Application.auth-service.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/repo-service/Search-Optimization-Application.repo-service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/repo-service/Search-Optimization-Application.repo-service.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/resource-service/Search-Optimization-Application.resource-service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/resource-service/Search-Optimization-Application.resource-service.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../commands to spin up architecture" beforeDir="false" afterPath="$PROJECT_DIR$/../commands to spin up architecture" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sink-config-for-notes-table.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sink-config-for-notes-table.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sink-config-for-shared_notes-table.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sink-config-for-shared_notes-table.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sink-config-for-users-table.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sink-config-for-users-table.json" afterDir="false" />
-    </list>
+    <list default="true" id="8b4f8789-965c-4c72-87ed-c914c48581a5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
