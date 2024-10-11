@@ -117,22 +117,3 @@ services:
 networks:
   search-application-network:
     driver: bridge
-  
-
-
-
-
-  # kafka_consumer:
-  #   image: kafka_consumer_for_search_optimization:0.0.1-SNAPSHOT
-  #   environment:
-  #      KAFKA_BOOTSTRAP_SERVER: kafka:9092
-  #      ELASTIC_HOST: elasticsearch
-  #      SPRING_ELASTICSEARCH_URIS: elasticsearch:9200
-  #   networks:
-  #     - search-application-network
-  #   depends_on:
-  #     elasticsearch:
-  #       condition: service_healthy
-  #     kafka:
-  #       condition: service_healthy
-
